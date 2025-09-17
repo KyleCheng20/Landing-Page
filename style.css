@@ -29,9 +29,12 @@ ul {
     gap: 16px;
 }
 
+.section-1, .section-3 {
+    padding: 38px 0;
+}
+
 .section-1 {
     background-color: #004C55;
-    padding: 54px 0;
 }
 
 .wrapper {
@@ -74,6 +77,11 @@ nav img{
     font-weight:900;
 }
 
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .hero-content-container img {
     width: 600px;
     height: auto;
@@ -85,14 +93,115 @@ button:hover {
     cursor: pointer;
 }
 
+button {
+    border: none;
+    font-size: 18px;
+}
+
 .hero-content button {
     max-width: 150px;
     padding: 10px;
     background-color: #fff;
     color: #004C55;
-    font-size: 18px;
-    font-weight: 900;
+    font-weight: 700;
     border-radius: 50px;
-    border: none;
     font-family: Roboto, sans-serif;
+}
+
+.section-2, .section-4{
+    padding: 58px 0;
+}
+
+.section-2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #004C55;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #004C55;
+}
+
+.card p {
+    color: #646869;
+}
+
+.card img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    /* border: 1px solid black; */
+    padding: 68px;
+}
+
+blockquote .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container .author {
+    text-align: right;
+}
+
+.closing-container {
+    background-color: #004C55;
+    color: #fff;
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    /* gap: 18px; */
+}
+
+.closing-content {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    gap: 10px;
+}
+
+.closing-content h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closing-container button {
+    padding: 10px 28px;
+    border-radius: 8px;
+    background-color: #004C55;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+
+}
+
+.closing-container button:hover {
+    background-color: #fff;
+    color: #004C55;
 }
